@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9962e4fd-e7e2-4b07-b326-76325f2d4860" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Fuel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoline.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Mercedes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Opel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Peugeot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Seat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Vehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/CarBuilder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Design Patterns.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/CreationalPatterns/Builder/BuilderPatternMainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/CreationalPatterns/Builder/BuilderPatternMainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/CreationalPatterns/Builder/BuilderPatternMainKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,28 +20,35 @@
     <session id="-177542884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="20" />
+          <entry key="gitignore" value="1" />
+          <entry key="kt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="20" />
+          <entry key="Kotlin" value="21" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="1579" />
+          <entry key="gitignore" value="3" />
+          <entry key="kt" value="2008" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="1579" />
+          <entry key="Kotlin" value="2008" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -58,12 +58,30 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/CarBuilder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -71,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Vehicle.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="108">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -80,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Car.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -89,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoline.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -99,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoil.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -128,9 +146,11 @@
         <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/Opel.kt" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/Peugeot.kt" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/Seat.kt" />
-        <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt" />
-        <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/Car.kt" />
         <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/Vehicle.kt" />
+        <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/Car.kt" />
+        <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt" />
+        <option value="$PROJECT_DIR$/src/CreationalPatterns/Builder/CarBuilder.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -174,8 +194,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,41 +285,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540244150696</updated>
-      <workItem from="1540244152607" duration="6610000" />
+      <workItem from="1540244152607" duration="6739000" />
+      <workItem from="1540293601714" duration="1273000" />
     </task>
+    <task id="LOCAL-00001" summary="CreationalPatterns -&gt; Builder.">
+      <created>1540251426522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540251426522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6610000" />
+    <option name="totallyTimeSpent" value="8012000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12548369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12658927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32985386" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3152401" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3152401" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32916668" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -334,6 +364,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CreationalPatterns -&gt; Builder." />
+    <option name="LAST_COMMIT_MESSAGE" value="CreationalPatterns -&gt; Builder." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Fuel.kt">
@@ -371,38 +405,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoline.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoil.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Car.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoline.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/Vehicle.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="108">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/CarBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
