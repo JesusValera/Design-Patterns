@@ -1,9 +1,9 @@
-package BehavioralPatterns.Strategy
+package behavioralPatterns.strategy
 
 class JetpackFly: FlyBehavior {
 
     override fun fly(): String {
-        return "*Motor engines running* Fffrsssssssssshh."
+        return "*Motor engines running*"
     }
 
 }

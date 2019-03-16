@@ -1,9 +1,9 @@
-package BehavioralPatterns.Strategy
+package behavioralPatterns.strategy
 
 class SimpleFly: FlyBehavior {
 
     override fun fly(): String {
-        return "flew flew"
+        return "'flew flew'."
     }
 
 }

@@ -1,6 +1,6 @@
-package BehavioralPatterns.Strategy
+package behavioralPatterns.strategy
 
-class Duck(val quack: QuackBehavior, val fly: FlyBehavior) {
+class Duck(val name: String, private val quack: QuackBehavior, private val fly: FlyBehavior) {
 
     fun quack() : String {
         return this.quack.quack()

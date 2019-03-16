@@ -1,9 +1,9 @@
-package BehavioralPatterns.Strategy
+package behavioralPatterns.strategy
 
 class NoQuack : QuackBehavior {
 
     override fun quack(): String {
-        return "Silence. . ."
+        return "***"
     }
 
 }

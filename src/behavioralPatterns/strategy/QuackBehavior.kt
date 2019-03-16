@@ -1,4 +1,4 @@
-package BehavioralPatterns.Strategy
+package behavioralPatterns.strategy
 
 interface QuackBehavior {
 
