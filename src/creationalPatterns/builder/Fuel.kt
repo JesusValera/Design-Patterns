@@ -1,4 +1,4 @@
-package CreationalPatterns.Builder
+package creationalPatterns.builder
 
 interface Fuel {
 

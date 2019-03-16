@@ -1,4 +1,4 @@
-package CreationalPatterns.Builder
+package creationalPatterns.builder
 
 class Gasoil(
         override val calorificValue: Float = 26.5F,

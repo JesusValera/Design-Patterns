@@ -1,6 +1,6 @@
-package CreationalPatterns.Builder
+package creationalPatterns.builder
 
-class Opel(
+class Mercedes(
         override val price: Double,
         override val color: String,
         override val windowTinted: Boolean,
