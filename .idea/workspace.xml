@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="181146a0-d5d8-45ab-834c-4b41cf010931" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/Duck.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/FlyBehavior.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/JetpackFly.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/NoFly.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/NoQuack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/QuackBehavior.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleFly.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleQuack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Display.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/LCDDisplay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Observable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/Observer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/ObserverPatternMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/WeatherStation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioralPatterns/observer/WindowDisplay.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Patterns.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Design Patterns.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/CreationalPatterns/Builder/BuilderPatternMainKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Design Patterns/META-INF/Design Patterns.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/BuilderPatternMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/BuilderPatternMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Car.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/CarBuilder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/CarBuilder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Fuel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Fuel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Gasoil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Gasoline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Gasoline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Mercedes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Mercedes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Opel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Opel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Peugeot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Peugeot.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Seat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Seat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/Builder/Vehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/Vehicle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalPatterns/builder/BuilderPatternMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalPatterns/builder/BuilderPatternMain.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,56 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Vehicle.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/BuilderPatternMain.kt">
+        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/ObserverPatternMain.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="60">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleQuack.kt">
+        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/WeatherStation.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/Duck.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleFly.kt">
+        <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/Observable.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -101,6 +57,8 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -135,15 +93,26 @@
         <option value="$PROJECT_DIR$/src/behavioralPatterns/strategy/NoQuack.kt" />
         <option value="$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleFly.kt" />
         <option value="$PROJECT_DIR$/src/behavioralPatterns/strategy/Duck.kt" />
-        <option value="$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt" />
         <option value="$PROJECT_DIR$/src/creationalPatterns/builder/Vehicle.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Fizzbuzz.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/Display.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/Observer.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/LCDDisplay.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/WindowDisplay.kt" />
+        <option value="$PROJECT_DIR$/src/creationalPatterns/builder/BuilderPatternMain.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/WeatherStation.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/Observable.kt" />
+        <option value="$PROJECT_DIR$/src/behavioralPatterns/observer/ObserverPatternMain.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2343" />
-    <option name="width" value="1497" />
-    <option name="height" value="1080" />
+    <option name="x" value="79" />
+    <option name="y" value="27" />
+    <option name="width" value="1841" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -167,6 +136,20 @@
               <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioralPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioralPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioralPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,11 +168,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552750377552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553554154456" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="behavioralPatterns.observer" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,20 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.creationalPatterns.builder.BuilderPatternMainKt">
-    <configuration name="BehavioralPatterns.Strategy.StrategyPatternMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Design Patterns" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Strategy.StrategyPatternMainKt" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.behavioralPatterns.observer.ObserverPatternMainKt">
     <configuration name="CreationalPatterns.Builder.BuilderPatternMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Design Patterns" />
       <option name="VM_PARAMETERS" value="" />
@@ -225,6 +200,19 @@
       <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="CreationalPatterns.Builder.BuilderPatternMainKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzbuzzKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FizzbuzzKt" />
       <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,6 +227,19 @@
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="behavioralPatterns.observer.ObserverPatternMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="behavioralPatterns.observer.ObserverPatternMainKt" />
+      <option name="WORKING_DIRECTORY" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -271,16 +272,18 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.CreationalPatterns.Builder.BuilderPatternMainKt" />
-      <item itemvalue="Kotlin.BehavioralPatterns.Strategy.StrategyPatternMainKt" />
       <item itemvalue="Kotlin.creationalPatterns.builder.BuilderPatternMainKt" />
       <item itemvalue="Kotlin.behavioralPatterns.strategy.StrategyPatternMainKt" />
+      <item itemvalue="Kotlin.FizzbuzzKt" />
+      <item itemvalue="Kotlin.behavioralPatterns.observer.ObserverPatternMainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.behavioralPatterns.observer.ObserverPatternMainKt" />
+        <item itemvalue="Kotlin.FizzbuzzKt" />
         <item itemvalue="Kotlin.creationalPatterns.builder.BuilderPatternMainKt" />
         <item itemvalue="Kotlin.behavioralPatterns.strategy.StrategyPatternMainKt" />
         <item itemvalue="Kotlin.CreationalPatterns.Builder.BuilderPatternMainKt" />
-        <item itemvalue="Kotlin.BehavioralPatterns.Strategy.StrategyPatternMainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -295,28 +298,30 @@
       <option name="presentableId" value="Default" />
       <updated>1552742691757</updated>
       <workItem from="1552742695084" duration="711000" />
-      <workItem from="1552743441703" duration="5589000" />
+      <workItem from="1552743441703" duration="8742000" />
+      <workItem from="1553341429267" duration="13000" />
+      <workItem from="1553550788698" duration="384000" />
+      <workItem from="1553551197765" duration="2808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6300000" />
+    <option name="totallyTimeSpent" value="12658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1999" y="0" width="1841" height="1080" extended-state="6" />
+    <frame x="79" y="27" width="1841" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14373259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1654596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28840125" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36344087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,8 +329,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30198538" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46666667" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,16 +350,7 @@
     <entry file="file://$PROJECT_DIR$/Design Patterns.iws">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/DisplayBehavior.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/DisplayBehavior.kt" />
     <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Opel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -361,13 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/DisplayAsGraphics.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/DisplayAsGraphics.kt" />
     <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Seat.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -403,24 +394,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/CityDuck.kt">
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/CityDuck.kt" />
+    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/WildDuck.kt" />
+    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Gasoil.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BehavioralPatterns/Strategy/WildDuck.kt">
+    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Gasoline.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="60">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fizzbuzz.kt" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Vehicle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Fuel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Car.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="60">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/CarBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/Observer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/LCDDisplay.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/WindowDisplay.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/Display.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/Duck.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/FlyBehavior.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/JetpackFly.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -445,87 +516,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/JetpackFly.kt">
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleFly.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/FlyBehavior.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/CarBuilder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Fuel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Gasoil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Gasoline.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="240">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleQuack.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/Vehicle.kt">
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/StrategyPatternMain.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/Duck.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/strategy/SimpleFly.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/creationalPatterns/builder/BuilderPatternMain.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/Observable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/WeatherStation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioralPatterns/observer/ObserverPatternMain.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>

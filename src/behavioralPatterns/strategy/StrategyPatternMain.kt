@@ -1,5 +1,8 @@
 package behavioralPatterns.strategy
 
+/**
+ * Greetings: https://www.youtube.com/watch?v=v9ejT8FO-7I
+ */
 fun main() {
 
     val wildDuck = Duck("Wild duck", SimpleQuack(), SimpleFly())

@@ -1,8 +1,5 @@
 package creationalPatterns.builder
 
-/**
- * Greetings: https://www.youtube.com/watch?v=v9ejT8FO-7I
- */
 fun main() {
 
     val opel = CarBuilder().buildOpel()
